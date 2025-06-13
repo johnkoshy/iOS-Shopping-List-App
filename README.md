@@ -31,8 +31,8 @@ flutter pub get
 flutter run
 
 ## Technologies
-Flutter (Dart)
-shared_preferences for persistent storage
+- Flutter (Dart)
+- shared_preferences for persistent storage
 
 ## License
 MIT License
