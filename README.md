@@ -1,16 +1,38 @@
-# ios_shopping_list_app
+# iOS Shopping List App
 
-A new Flutter project.
+A simple iOS-style shopping list app built with Flutter. Users can add, delete, and mark items as bought, with persistent storage using `shared_preferences`.
+
+## Features
+- Add items to a shopping list (e.g., "Apples").
+- Delete items from the list.
+- Mark items as bought with checkboxes (strikes through text).
+- Persistent storage to save items between app sessions.
+
+## Screenshot
+![Shopping List Screenshot](screenshots/main_web.png)
 
 ## Getting Started
+### Prerequisites
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Android Studio or VS Code
+- Android emulator or physical device
 
-This project is a starting point for a Flutter application.
+### Installation
+1. Clone the repository:   
+   git clone https://github.com/johnkoshy/iOS-Shopping-List-App.git
 
-A few resources to get you started if this is your first Flutter project:
+2. Navigate to the project directory:
+cd iOS-Shopping-List-App
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Install dependencies:
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. Run the app:
+flutter run
+
+## Technologies
+Flutter (Dart)
+shared_preferences for persistent storage
+
+## License
+MIT License
