@@ -1,0 +1,58 @@
+# Flutter/Dart/Pub related
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+pubspec.lock
+*.g.dart
+*.freezed.dart
+*.config.dart
+*.mocks.dart
+*.part.dart
+*.gen.dart
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# macOS
+.DS_Store
+
+# Local configuration
+*.local
+*.sqlite
+*.db
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+
+# Web
+web/debug/
+web/release/
+
+# Windows
+windows/.vs/
+windows/Debug/
+windows/Release/
+
+# Miscellaneous
+*.log
+app.*.symbols
+app.*.map.json
