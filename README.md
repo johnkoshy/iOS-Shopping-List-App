@@ -9,7 +9,9 @@ A simple iOS-style shopping list app built with Flutter. Users can add, delete, 
 - Persistent storage to save items between app sessions.
 
 ## Screenshot
-![Shopping List Screenshot](screenshots/main_web.png)
+![Shopping List Main Page](screenshots/main_web.png)
+![Shopping List Edit Page](screenshots/edit.png)
+![Shopping List Strikethrough Page](screenshots/strike.png)
 
 ## Getting Started
 ### Prerequisites
