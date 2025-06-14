@@ -5,7 +5,7 @@
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-pubspec.lock
+# pubspec.lock
 *.g.dart
 *.freezed.dart
 *.config.dart
